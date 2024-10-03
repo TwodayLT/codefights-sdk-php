@@ -1,0 +1,19 @@
+{
+  "name": "twodaylt/codefights-sdk-php",
+  "description": "Codefights SDK for PHP",
+  "type": "library",
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodefightsSdk\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
