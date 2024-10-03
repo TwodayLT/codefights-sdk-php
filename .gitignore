@@ -1,0 +1,22 @@
+# Ignore directories and files related to Composer
+/vendor/
+/composer.lock
+
+# Ignore PHPStorm project files
+.idea/
+/nbproject/
+
+# Ignore PHPUnit and other testing related files
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+.env.backup
+/.env.testing
+/.env.production
+/.env.development
+/.env.staging
